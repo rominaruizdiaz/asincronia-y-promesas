@@ -30,4 +30,5 @@ async function main() {
     const dataResults = await getResults();
     createTable(dataResults.results)
 }
+
 main()
